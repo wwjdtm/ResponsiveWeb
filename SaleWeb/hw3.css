@@ -1,0 +1,37 @@
+body{
+    margin:0 auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+}
+.title{
+    background-color: blueviolet;
+    width:100px;
+    color:white;
+    padding-left: 30px;
+    padding-top:100px;
+}
+nav{
+    background-color: royalblue;
+    width:200px;
+}
+nav .nav li{
+    list-style: none;
+    height: 40px;
+}
+nav .nav a{
+    text-decoration:none; 
+    color:white;
+}
+.cardbody{
+    background-color: yellowgreen;
+    flex:1;
+    
+}
+footer{
+    background-color:gold;
+    height: 70px;
+    width: 100%;
+}
