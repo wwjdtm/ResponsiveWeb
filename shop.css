@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin:0 auto;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    position:fixed;
+}
+.title{
+    margin-left:20px;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    width:100px;
+    color:black;
+    padding-left: 30px;
+    padding-top:100px;
+}
+nav{
+    width:200px;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: -0.05em;
+    margin-top:200px;
+}
+nav .nav li{
+    list-style: none;
+    height: 40px;
+}
+nav .nav a{
+    text-decoration:none; 
+    color:black;
+}
+nav .nav a:hover{
+    color:darkolivegreen;
+}
+.cardbody{
+    margin-left: 330px;
+    flex:1;
+    
+}
+.threecard{
+    display:flex;
+    padding-top:30px;
+}
+.card{
+    margin-left: 20px;
+    width: 300px;
+    border:1px solid black;
+    height: 400px;
+    background-color:grey;
+}
+.card:hover{
+    border:none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.71);
+    background-color:white;
+
+}
+/* footer{
+    background-color:gold;
+    height: 70px;
+    width: 100%;
+} */
