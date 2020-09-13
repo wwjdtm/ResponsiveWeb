@@ -1,0 +1,64 @@
+body{
+    margin:0 auto;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.title{
+    margin-left:20px;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    width:100px;
+    color:black;
+    padding-left: 30px;
+    padding-top:100px;
+}
+nav{
+    width:200px;
+    font-family: 'Noto Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left;
+    letter-spacing: -0.05em;
+    margin-top:200px;
+}
+nav .nav li{
+    list-style: none;
+    height: 40px;
+}
+nav .nav a{
+    text-decoration:none; 
+    color:black;
+}
+.cardbody{
+    flex:1;
+    
+}
+.threecard{
+    display:flex;
+    padding-top:30px;
+}
+.card{
+    margin-left: 20px;
+    width: 300px;
+    border:1px solid black;
+    height: 400px;
+}
+.card:hover{
+    border:none;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.71);
+
+}
+/* footer{
+    background-color:gold;
+    height: 70px;
+    width: 100%;
+} */
