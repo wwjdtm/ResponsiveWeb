@@ -58,10 +58,12 @@ nav .nav a:hover{
     width: 300px;
     border:1px solid black;
     height: 400px;
+    background-color:grey;
 }
 .card:hover{
     border:none;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.71);
+    background-color:white;
 
 }
 /* footer{
