@@ -65,8 +65,12 @@ nav .nav a:hover{
     color:darkolivegreen;
 }
 
-/* footer{
-    background-color:black;
-    height: 70px;
+footer{
+    padding-top:10px;
+    text-align: center;
+    margin-top: 20px;
+    background-color:white;
+    color: black;
+    height: 40px;
     width: 100%;
-} */
+}
