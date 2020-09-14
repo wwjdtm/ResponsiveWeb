@@ -56,6 +56,15 @@ nav .nav a:hover{
     position: relative;
     
 }
+.cardbodyname{
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkgreen;
+    margin-top:40px;
+}
+
 .threecard{
     display:flex;
     padding-top:30px;
@@ -89,7 +98,7 @@ nav .nav a:hover{
     height: 40px;
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 .secondnav .nav a{
