@@ -10,9 +10,11 @@ a{
 .main{
     display: flex;
     flex-direction: row;
-    position:fixed;
+    /* position:fixed; */
 }
+
 .title{
+    position:fixed;
     margin-left:20px;
     font-family: 'Noto Serif', serif;
     font-style: normal;
@@ -24,6 +26,8 @@ a{
     padding-top:100px;
 }
 nav{
+    margin-left: 100px;
+    position:fixed;
     width:200px;
     font-family: 'Noto Serif', serif;
     font-style: normal;
@@ -35,7 +39,7 @@ nav{
 }
 nav .nav li{
     list-style: none;
-    height: 40px;
+    /* height: 40px; */
 }
 nav .nav a{
     text-decoration:none; 
@@ -45,13 +49,17 @@ nav .nav a:hover{
     color:darkolivegreen;
 }
 .cardbody{
-    margin-left: 330px;
-    flex:1;
+    margin-left: 300px;
+    /* margin-left: 330px; */
+    /* flex: 1; */
+    /* background-color: rebeccapurple; */
+    position: relative;
     
 }
 .threecard{
     display:flex;
     padding-top:30px;
+    
 }
 .card{
     margin-left: 20px;
@@ -59,12 +67,37 @@ nav .nav a:hover{
     border:1px solid black;
     height: 400px;
     background-color:grey;
+    
 }
 .card:hover{
     border:none;
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.71);
     background-color:white;
 
+}
+.secondnav{
+    position:fixed;
+    margin-left: 1280px;
+    margin-top:200px;
+    flex: 1;
+    text-align: left;
+    font-family: 'Noto Serif', serif;
+    
+}
+.secondnav .nav li{
+    list-style: none;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.secondnav .nav a{
+    text-decoration:none; 
+    color:black;
+}
+.secondnav .nav a:hover{
+    color:darkolivegreen;
 }
 /* footer{
     background-color:gold;
