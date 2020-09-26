@@ -59,12 +59,26 @@
         }
     }
     let yOffset=0; //window.pageyoffset대신 쓸 변수
+    let prevScrollHeight=0; //모든 섹션의 스크롤합 16420
+    let currentScene=0; //현재 스크롤섹션 0,1,2,3
 
     function scrollLoop(){
-        
+        prevScrollHeight=0;
+        for(let i=0; i<currentScene; i++){
+            prevScrollHeight += sceneInfo[i].scrollHeight;
+
+        }
+        if(yOffset > prevScrollHeight + sceneInfo[currentScene].scrollHeight){
+            currentScene++;
+        }
+        if(yOffset < prevScrollHeight){
+            if(currentScene===0) return;
+            currentScene --;
+        }
+        console.log(currentScene);
         
     }
-    
+
     window.addEventListener('resize',setLayout);
     //스크롤위치ㅣ
     window.addEventListener('scroll', ()=>{
