@@ -58,7 +58,22 @@
             sceneInfo[i].objs.container.style.height = `${sceneInfo[i].scrollHeight}px`;
         }
     }
+    let yOffset=0; //window.pageyoffset대신 쓸 변수
+
+    function scrollLoop(){
+        
+        
+    }
+    
     window.addEventListener('resize',setLayout);
+    //스크롤위치ㅣ
+    window.addEventListener('scroll', ()=>{
+        //스크롤하면 기본적으로 실행되는함수
+        yOffset = window.pageYOffset;
+        //console.log(yOffset);//스크롤값찍어줌
+        scrollLoop();
+
+    });
 
     setLayout();
 
